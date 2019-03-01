@@ -1,0 +1,20 @@
+.img-thumbnail img {
+    width: 100%;
+}
+
+.img-thumbnail {
+    padding: 0;
+}
+
+.img-thumbnail figcaption, .img-thumbnail p{
+    padding: 9px;
+}
+
+#deleteInline {
+    display: inline;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
