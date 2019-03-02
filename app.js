@@ -18,7 +18,7 @@ var campgroundRoutes = require("./routes/campgrounds");
 var authRoutes = require("./routes/index");
     
 // Package Initializations
-mongoose.connect("process.env.DATABASE_URL", {useNewUrlParser: true});    
+mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser: true});    
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
