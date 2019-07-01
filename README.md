@@ -47,6 +47,10 @@
 - Comments Sections
 - [Moment](https://www.npmjs.com/package/moment) to show time ago
 
+## Thanks
+
+- [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) by [Colt Steele](https://www.udemy.com/user/coltsteele/)
+
 <div align="center">
 
 <sub><sup>Project by <a href="https://github.com/navin-navi"> @Navin Navi</a></sup></sub><small>✌</small>
