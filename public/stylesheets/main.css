@@ -1,20 +1,21 @@
 .img-thumbnail img {
-    width: 100%;
+  width: 100%;
 }
 
 .img-thumbnail {
-    padding: 0;
+  padding: 0;
 }
 
-.img-thumbnail figcaption, .img-thumbnail p{
-    padding: 9px;
+.img-thumbnail figcaption,
+.img-thumbnail p {
+  padding: 9px;
 }
 
 #deleteInline {
-    display: inline;
+  display: inline;
 }
 
 #map {
-    height: 400px;
-    width: 100%;
+  height: 400px;
+  width: 100%;
 }
