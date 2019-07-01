@@ -40,22 +40,22 @@ body {
 }
 
 .slideshow li:nth-child(1) {
-  background-image: url(https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg);
+  background-image: url(https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb);
 }
 .slideshow li:nth-child(2) {
-  background-image: url(https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg);
+  background-image: url(https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?auto=compress&cs=tinysrgb);
   animation-delay: 5s;
 }
 .slideshow li:nth-child(3) {
-  background-image: url(https://images.pexels.com/photos/1423032/pexels-photo-1423032.jpeg);
+  background-image: url(https://images.pexels.com/photos/1423032/pexels-photo-1423032.jpeg?auto=compress&cs=tinysrgb);
   animation-delay: 10s;
 }
 .slideshow li:nth-child(4) {
-  background-image: url(https://images.pexels.com/photos/1683821/pexels-photo-1683821.jpeg);
+  background-image: url(https://images.pexels.com/photos/1683821/pexels-photo-1683821.jpeg?auto=compress&cs=tinysrgb);
   animation-delay: 15s;
 }
 .slideshow li:nth-child(5) {
-  background-image: url(https://images.pexels.com/photos/1294230/pexels-photo-1294230.jpeg);
+  background-image: url(https://images.pexels.com/photos/1294230/pexels-photo-1294230.jpeg?auto=compress&cs=tinysrgb);
   animation-delay: 20s;
 }
 

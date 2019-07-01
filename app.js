@@ -8,9 +8,8 @@ var express = require("express"),
   flash = require("connect-flash"),
   passport = require("passport"),
   localStrategy = require("passport-local"),
-  User = require("./models/user"),
-  seedDB = require("./seed"),
-  methodOverride = require("method-override");
+  User = require("./models/user");
+methodOverride = require("method-override");
 
 // Requiring Routes
 var commentRoutes = require("./routes/comments");
@@ -18,7 +17,7 @@ var campgroundRoutes = require("./routes/campgrounds");
 var authRoutes = require("./routes/index");
 
 // Package Initializations
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true });
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
